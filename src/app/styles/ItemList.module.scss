@@ -1,0 +1,35 @@
+$primary-color: #2a3dd0;
+$background-color: #f9f9f9;
+$input-border-color: #ddd;
+$input-focus-color: #4CAF50;
+
+.heading {
+    color: $primary-color;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.itemContainer {
+    margin: 20px 0;
+}
+
+.objectKey {
+    color: rgb(89, 6, 125);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.content {
+    color: blueviolet;
+    margin: auto;
+    width: 50%;
+    font-size: 18px;
+}
+
+.borderLine {
+    border: 1px solid rgb(221, 216, 216);
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}

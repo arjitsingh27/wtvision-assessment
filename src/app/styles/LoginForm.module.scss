@@ -1,0 +1,52 @@
+$primary-color: #2a3dd0;
+$background-color: #f9f9f9;
+$input-border-color: #ddd;
+$input-focus-color: #4CAF50;
+
+.login {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: $primary-color;
+    text-align: center;
+}
+
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid $input-border-color;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.login input:focus {
+    border-color: $input-focus-color;
+    outline: none;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: darken($primary-color, 10%);
+}
